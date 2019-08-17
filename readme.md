@@ -29,7 +29,7 @@ if you dont change `PORT` enviroment on docker-compose your application your run
     $ apidoc -i ./src -o ./apidoc -t ../../apidoc_template
 ```
 
-*change template location to `../../apidoc_template` to location on your environment, if you dont have an template find it on google 🙂*
+**change template location to `../../apidoc_template` to location on your environment, if you dont have an template find it on google 🙂**
 
 #### To run Test:
 
@@ -40,7 +40,7 @@ if you dont change `PORT` enviroment on docker-compose your application your run
 ```
 
 
-* Note *
+***Note***
 
 use `src/example` as example to create others microservices
 
