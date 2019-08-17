@@ -40,7 +40,7 @@ if you dont change `PORT` enviroment on docker-compose your application your run
 ```
 
 
-*** Notes
+* Note *
 
 use `src/example` as example to create others microservices
 
