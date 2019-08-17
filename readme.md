@@ -13,6 +13,8 @@
     $ docker-compose up api
 ```
 
+if you dont change `PORT` enviroment on docker-compose your application your run at: [http://localhost:3000](http://localhost:3000)
+
 #### To generate docs:
 
 - Make sure you have `ApiDoc` installed on your environmet, if you dont have `sudo npm i -g apidoc`, so 
