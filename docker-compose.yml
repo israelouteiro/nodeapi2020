@@ -7,13 +7,17 @@ services:
             - NODE_ENV=development
             - MONGODB_URI=mongodb://mongodb:27017/mongo
             - PORT=3000
-            - API_SECRET=<api_key_goes_here>
-            - APPLICATION_NAME=NodeApi
+            - API_SECRET=eefb8b564464b190842900e028ffaf892e26083cd99b1a2f5ee42693376195d7
+            - APPLICATION_NAME=GCA
+            - API_URL=http://localhost:3000/api/ 
+            - PUBLIC_URL=http://localhost:3000/ 
             - APPLICATION_URL=http://localhost:3001/ 
-            - SMTP_EMAIL=
-            - SMTP_SENDER=
-            - SMTP_PASSWORD=
+            - SMTP_EMAIL=gca.system.mail@gmail.com
+            - SMTP_SENDER=gca.system.mail@gmail.com
+            - SMTP_PASSWORD=gca@1234
             - SMTP_SERVICE=gmail
+            - FACEBOOK_ID=440819713283341
+            - FACEBOOK_SECRET=22babc9751febeaa475d905a95e8070f
         volumes:
             - ./:/usr/src/app 
         working_dir: /usr/src/app

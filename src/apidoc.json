@@ -1,7 +1,7 @@
 {
-  "name": "Api",
+  "name": "GCA Api",
   "version": "1.0.0",
-  "description": "Documentation to API",
-  "title": "API",
+  "description": "Documentation to GCA API",
+  "title": "GCA API",
   "url" : ""
 }

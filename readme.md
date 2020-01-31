@@ -1,4 +1,4 @@
-#  Quick API @2019
+#  GCA API @2019
 
 ## Docker + Node + Mongo + Pug + Mocha + ApiDoc ☑
 
@@ -39,10 +39,6 @@ if you dont change `PORT` enviroment on docker-compose your application your run
     $ npm run test
 ```
 
-
 ***Note***
 
-use `src/example` as example to create others microservices
-
-
-[israelOuteiro@2019](http://israelouteiro.com)
+[xApps@2019](http://x-apps.com.br)
